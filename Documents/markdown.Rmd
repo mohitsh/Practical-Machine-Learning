@@ -2,15 +2,15 @@
 
 Using equipment like Jawbone Up, Nike FuelBand, and Fitbit now it is possible to measure personal performances. People usually measure their performance quantity but not the performance quality. Main goal of this project is to use data from accelerometers on the belt, forearm, arm, and dumbbell of 6 participants and predict the manner in which they did the exercise.
 I have applied random forest method to classify the model to predict the class variable. Entire analysis has been done in R.
-•	In this project I build a predictive model to determine whether a particular form of exercise (barbell lifting) is performed correctly, using accelerometer data.
-•	The training set consisted of 19622 observations of 160 variables that had one dependent variable. 
-•	To make a predictive model random forest classification method is used. Random forest assume non-linearity and it doesn’t ask for any parameter selection so random forest is easy and relevant to use in this case. This algorithm takes care of outliers and correlated covariates which a plus.
-•	 Random forest was available through random forest and caret library. No of trees produced were 500. No of variables tried at each split were 16.
-•	Class is chosen as the response variable because given all the available variables class was the most appropriate one to represent human behavior. For choosing predictors VarImp function is used to decide the relative importance of the available variables that resulted in 31 top influencing variables.
-•	Error expectation was low because all the predictors were closely related to the outcome variable i.e. class and error was going to be an in-sample error.
-•	Out of Bag error (OOB) estimation of error rate was 0.1% which was promising.
-•	Confusion matrix showed that maximum classification error was found in class D with .2% classification error and best performer was class E with .0002% classification error.
-•	Variable Importance curve is plotted to visualize the most effective variables and ROC curve was plotted to measure the performance of classifier.
+*	In this project I build a predictive model to determine whether a particular form of exercise (barbell lifting) is performed correctly, using accelerometer data.
+*	The training set consisted of 19622 observations of 160 variables that had one dependent variable. 
+*	To make a predictive model random forest classification method is used. Random forest assume non-linearity and it doesn’t ask for any parameter selection so random forest is easy and relevant to use in this case. This algorithm takes care of outliers and correlated covariates which a plus.
+*	 Random forest was available through random forest and caret library. No of trees produced were 500. No of variables tried at each split were 16.
+*	Class is chosen as the response variable because given all the available variables class was the most appropriate one to represent human behavior. For choosing predictors VarImp function is used to decide the relative importance of the available variables that resulted in 31 top influencing variables.
+*	Error expectation was low because all the predictors were closely related to the outcome variable i.e. class and error was going to be an in-sample error.
+*	Out of Bag error (OOB) estimation of error rate was 0.1% which was promising.
+*	Confusion matrix showed that maximum classification error was found in class D with .2% classification error and best performer was class E with .0002% classification error.
+*	Variable Importance curve is plotted to visualize the most effective variables and ROC curve was plotted to measure the performance of classifier.
 
 
 code 
