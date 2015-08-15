@@ -1,21 +1,9 @@
 ## Final Project
 
-Using equipments like Jawbone Up, Nike FuelBand, and Fitbit
-now it is possible to measure perosnal performances. People
-usually measure their performance quantity but not the performance
-quality. Main goal of this project is to use data from accelerometers
-on the belt, forearm, arm, and dumbell of 6 participants and precict
-the manner in which they did the exercise.
+Using equipment like Jawbone Up, Nike FuelBand, and Fitbit now it is possible to measure personal performances. People usually measure their performance quantity but not the performance quality. Main goal of this project is to use data from accelerometers on the belt, forearm, arm, and dumbbell of 6 participants and predict the manner in which they did the exercise.
+This project had a very long data set. So training took very long time. I have applied random forest method to classify the model to predict the class variable.
+To measure the quality of workout class is the most suitable variable. Now to model the data I have used random forest because with my little knowledge about algorithms I think this would be the best algorithm to classify people based on their behaviors.
 
-This project had a very long data set.
-So training took very long time.
-I have applied random forest method to classify the model to 
-predict the classe variable.
-
-To measure the quality of workout classe is the most suitbale variable.
-Now to model the data I have used random forest because with my little 
-knowledge about algorithms I think this would be the best algorithm to 
-classify people based on their behaviours.
 
 code 
 
